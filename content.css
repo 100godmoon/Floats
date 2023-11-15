@@ -1,0 +1,78 @@
+.outer {
+  height: 500px;
+  width: 400px;
+  background-color: black;
+  position: fixed;
+  top: 120px;
+  z-index: 10001;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.bigDiv {
+  height: 450px;
+  width: 400px;
+  background-color: white;
+  overflow-y: scroll;
+}
+
+.txtbox {
+  height: 450px;
+  width: 400px;
+  color: black;
+  background-color: white !important;
+  font-family: "Roboto Mono", monospace;
+}
+#btn {
+  padding: 10px 20px;
+
+  position: relative;
+  left: 3rem;
+  top: 5px;
+  background-color: #559be8;
+  color: white;
+  border-radius: 20px;
+}
+
+#pdfbtn {
+  padding: 10px 20px;
+
+  position: relative;
+  left: 12rem;
+  top: 5px;
+  background-color: green;
+  color: white;
+  border-radius: 20px;
+}
+
+#btnDiv {
+  background-color: black;
+  width: 400px;
+  height: 50px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.newTask {
+  background-color: black;
+  width: 380px;
+  height: 20px;
+  color: aliceblue;
+}
+
+#delbtn {
+  background-color: green;
+  color: white;
+  margin-left: 250px;
+}
+
+.reduce {
+  height: 0px;
+  width: 400px;
+}
+
+.zero {
+  background-color: black;
+  height: 0px;
+  width: 0px;
+}
